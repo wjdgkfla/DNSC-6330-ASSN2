@@ -62,9 +62,10 @@ Reference materials used:
 - DiCE counterfactual tables with immutable-feature checks.
 - Written interpretation and governance memo content.
 
-## Submission Checklist (for GitHub repo)
-- Python notebook implementing full workflow: included.
-- README containing purpose, libraries, and reproducibility instructions: included.
+## How to Use This Notebook
+- Read sections in order from model setup to interpretation.
+- Run cells top-to-bottom to reproduce all outputs.
+- Use the Expected Outputs section to verify your run completed successfully.
 
 ## Note on Minor Differences
 Small run-to-run differences can occur in explainability outputs due to stochastic components (for example, perturbation/sampling in LIME/SHAP/DiCE). Substantive conclusions remain consistent.
