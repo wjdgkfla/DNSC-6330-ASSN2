@@ -2,6 +2,8 @@
 
 ## Purpose of the Analysis
 This repository reproduces the Lecture 02 COMPAS explainability workflow in Python. The goal is to preserve all substantive analytical steps: model building, group-level diagnostics, explainability analysis, counterfactual recourse, and interpretation.
+Assignment 2 is implemented as a continuation of Assignment 1, using the same cleaned COMPAS cohort and aligned variable definitions.
+The Assignment 2 section is written in a student-friendly style and directly follows the four Individual Homework 2 tasks from Lecture 02.
 
 Notebook included:
 - `Assignment 2.ipynb`
@@ -34,7 +36,7 @@ Reference materials used:
 ### 3) Generate Explainability Outputs
 - Produces SHAP explanations (global beeswarm + local waterfall).
 - Produces LIME local explanations for selected defendants.
-- Compares SHAP and LIME attribution patterns.
+- Compares SHAP and LIME attribution patterns in plain language (agreement, divergence, governance implication).
 
 ### 4) Generate Counterfactual Recourse and Interpretation
 - Uses DiCE to generate counterfactuals for selected individuals.
