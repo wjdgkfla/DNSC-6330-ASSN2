@@ -4,7 +4,7 @@
 This repository reproduces the Lecture 02 COMPAS explainability workflow in Python. The goal is to preserve all substantive analytical steps: model building, group-level diagnostics, explainability analysis, counterfactual recourse, and interpretation.
 
 Notebook included:
-- `Compas_Analysis.ipynb`
+- `Assignment 2.ipynb`
 
 Reference materials used:
 - `DNSC_6330_Lecture-02.pdf`
@@ -53,7 +53,7 @@ Reference materials used:
    pip install pandas numpy matplotlib statsmodels scikit-learn lime shap dice-ml
    ```
 3. Open Jupyter and run all cells in:
-   - `Compas_Analysis.ipynb`
+   - `Assignment 2.ipynb`
 
 ## Expected Outputs
 - Race-wise model performance table (accuracy, FPR, FNR, AUC).
